@@ -26,8 +26,9 @@ This project is a Python script that utilizes the Selenium library to automate t
 ## Variables to Customize
 
 1. `google_form_url`: Replace with the actual URL of your Google Form.
-2. `button_xpaths1`: List of XPaths for initial set of buttons to click.
-3. `button_xpaths2`: List of XPaths for frequently clicked buttons after the initial set.
+2. `button_xpaths1`: List of XPaths for options.
+3. `button_xpaths2`: List of XPaths for multiple choice options.
+3. `submitXpath`: XPaths for submit button.
 4. `limit`: Number of form responses needed.
 
 ## Important Notes
