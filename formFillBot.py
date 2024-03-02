@@ -29,7 +29,7 @@ def formFillBot(form_url, button_xpaths1):
     time.sleep(2)
 
 # Replace url with the actual URL of your Google Form
-google_form_url = 'https://docs.google.com/forms/d/e/1FAIpQLSeV775Ye7gS8n6a7Xf_iauIDR2zoH4l4WrLjfg6nopNfn0mQA/viewform'
+google_form_url = 'your Google Form link'
 
 # Define your list of XPaths
 button_xpaths1 = [
