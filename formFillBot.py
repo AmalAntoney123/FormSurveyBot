@@ -4,9 +4,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import random
 
-# Constants
+# Edit the Constants according to your form
 LIMIT = 1
-GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSeV775Ye7gS8n6a7Xf_iauIDR2zoH4l4WrLjfg6nopNfn0mQA/viewform'
+GOOGLE_FORM_URL = 'your google form'
 SUBMIT_XPATH = '//*[@id="mG61Hd"]/div[2]/div/div[3]/div/div[1]/div/span/span'
 BUTTON_XPATHS1 = [
     [
