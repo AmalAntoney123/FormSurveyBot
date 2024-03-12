@@ -31,6 +31,15 @@ This project is a Python script that utilizes the Selenium library to automate t
 3. `submitXpath`: XPaths for submit button.
 4. `limit`: Number of form responses needed.
 
+## How to Find XPaths
+To find the XPaths for the buttons on your Google Form, you can use browser developer tools. Here's a brief guide:
+
+- Open your Google Form in Google Chrome.
+- Right-click on the button you want to interact with and select "Inspect" to open the Developer Tools.
+- Right-click on the highlighted HTML element in the "Elements" tab.
+- Choose "Copy" and then "Copy XPath."
+Ensure that you adjust the XPaths based on the structure of your Google Form and the buttons you want to interact with.
+
 ## Important Notes
 
 - Ensure that you have the correct WebDriver installed and its path added to your system environment variables.
